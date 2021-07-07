@@ -1,0 +1,6 @@
+is_global = true
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Raycast
+build_property.ProjectDir = C:\Users\Tangent\Dropbox\Programming\RiderProjects\Raycast\Raycast\

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="SFML.Net" Version="2.5.0" />
+    </ItemGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PublishReadyToRunExclude Include="System.Collections.dll" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <LangVersion>8</LangVersion>
+        <OutputType>WinExe</OutputType>
+        <PublishReadyToRun>true</PublishReadyToRun>
+        <PublishSingleFile>true</PublishSingleFile>
+        <PublishTrimmed>true</PublishTrimmed>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+</Project>
